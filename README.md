@@ -39,20 +39,27 @@ PhpStorm, WebStorm, PyCharm
 
 	This access is required if you want to enable auto-renewal of your product. It only makes a cron entry for scheduling renewal, nothing harmful is done.
 
+   ![screenshots/1.png](https://github.com/craftisan/jetbrains-installer/blob/master/screenshots/1.png)
 
 7. Search the app from `Spotlight Search` or go to the `/Applications` directory and search for `<Product>.app` and run the app.
 
+	![screenshots/2.png](https://github.com/craftisan/jetbrains-installer/blob/master/screenshots/2.png)
 
 8. When asked for `Data Sharing`, click `Dont't Send`.
 
+	![screenshots/3.png](https://github.com/craftisan/jetbrains-installer/blob/master/screenshots/3.png)
 
 9. When asked `Import PhpStorm Settings`, if you have any settings saved beforehand select 'Config or installation directory' and import setting otherwise select `Do not import settings` and click `OK`.
 
+	![screenshots/4.png](https://github.com/craftisan/jetbrains-installer/blob/master/screenshots/4.png)
 
 10. On the `License Activation` screen, Select `Evaluate for free`, leave everything unchecked and click `Evaluate`.
 
+	![screenshots/5.png](https://github.com/craftisan/jetbrains-installer/blob/master/screenshots/5.png)
 
 11. DONE!
+
+	![screenshots/6.png](https://github.com/craftisan/jetbrains-installer/blob/master/screenshots/6.png)
 
 ## BONUS
 Your installation will renew after every 20 days! Hence, this installer does not require any activation code or license server.

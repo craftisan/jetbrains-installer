@@ -1,5 +1,12 @@
 # Jetbrains Installer
 
+A simple script to install latest JetBrains IDEs. **No activation code required. No license server required.**
+
+
+### _Supported JetBrains products:_
+PhpStorm, WebStorm, PyCharm
+
+
 ## USAGE
 
 1. Download/clone this source code 
@@ -14,9 +21,7 @@
 	```
  
 
-4. Run `jetbrains.sh` without sudo with the JetBrains product you want to install
-
-	**JetBrains products support**: PhpStorm, WebStorm, PyCharm etc.
+4. Run `jetbrains.sh` without sudo with the JetBrains product you want to install.
 
 	```shell
 	chmod 775 jetbrains.sh

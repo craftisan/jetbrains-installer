@@ -9,7 +9,7 @@ PhpStorm, WebStorm, PyCharm
 
 > **Legal Note:**
 >
-> The scripts in this repository do not violate any licensing, terms or conditions of distribution of Jetbrains products. It simply downloads the products and schedules them for re-download (referred to as `auto-renewal` above) via official Jetbrains website.
+> The scripts in this repository do not violate any licensing, terms or conditions of distribution of Jetbrains products. It simply downloads the products and schedules them for re-download (hereby referred to as `auto-renewal`) via official Jetbrains website.
 >
 > This is not a hack of the original, paid products/features offered by Jetbrains by any method/means including fake activation codes or license servers, it is merely an installation script for the said products.
 >

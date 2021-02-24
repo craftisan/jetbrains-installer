@@ -1,4 +1,4 @@
-# Jetbrains Installer
+# Jetbrains Installer (for macOS)
 
 A simple script to install latest JetBrains IDEs. **No activation code required. No license server required.**
 

@@ -2,16 +2,19 @@
 
 ## USAGE
 
-1. Open terminal.
+1. Download/clone this source code 
 
 
-2. Go the downloaded location of this installer (Usually in the Downloads directory)
+2. Open terminal.
+
+
+3. Go the downloaded location of this installer (Usually in the Downloads directory)
 	```shell
 	cd ~/Downloads/jetbains-installer
 	```
  
 
-3. Run `jetbrains.sh` without sudo with the JetBrains product you want to install
+4. Run `jetbrains.sh` without sudo with the JetBrains product you want to install
 
 	**JetBrains products support**: PhpStorm, WebStorm, PyCharm etc.
 
@@ -24,27 +27,27 @@
 	```
 
 
-4. After running the above command, enter your password whenever asked.
+5. After running the above command, enter your password whenever asked.
 
 
-5. Installer will also ask for Administration Access for your terminal. Click `OK` when prompted.
+6. Installer will also ask for Administration Access for your terminal. Click `OK` when prompted.
 
 	This access is required if you want to enable auto-renewal of your product. It only makes a cron entry for scheduling renewal, nothing harmful is done.
 
 
-6. Search the app from `Spotlight Search` or go to the `/Applications` directory and search for `<Product>.app` and run the app.
+7. Search the app from `Spotlight Search` or go to the `/Applications` directory and search for `<Product>.app` and run the app.
 
 
-7. When asked for `Data Sharing`, click `Dont't Send`.
+8. When asked for `Data Sharing`, click `Dont't Send`.
 
 
-8. When asked `Import PhpStorm Settings`, if you have any settings saved beforehand select 'Config or installation directory' and import setting otherwise select `Do not import settings` and click `OK`.
+9. When asked `Import PhpStorm Settings`, if you have any settings saved beforehand select 'Config or installation directory' and import setting otherwise select `Do not import settings` and click `OK`.
 
 
-9. On the `License Activation` screen, Select `Evaluate for free`, leave everything unchecked and click `Evaluate`.
+10. On the `License Activation` screen, Select `Evaluate for free`, leave everything unchecked and click `Evaluate`.
 
 
-10. DONE!
+11. DONE!
 
 ## BONUS
 Your installation will renew after every 20 days! Hence, this installer does not require any activation code or license server.

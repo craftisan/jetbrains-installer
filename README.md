@@ -2,6 +2,8 @@
 
 A simple script to install latest JetBrains IDEs. **No activation code required. No license server required.**
 
+No need to uninstall or install the IDE manually, the script will do that too.
+
 
 ### _Supported JetBrains products:_
 PhpStorm, WebStorm, PyCharm
@@ -24,7 +26,7 @@ PhpStorm, WebStorm, PyCharm
 2. Open terminal.
 
 
-3. Go the downloaded location of this installer (Usually in the Downloads directory)
+3. Go to the downloaded location of this installer (Usually in the Downloads directory)
 	```shell
 	cd ~/Downloads/jetbains-installer
 	```
@@ -54,7 +56,7 @@ PhpStorm, WebStorm, PyCharm
 
 	![screenshots/2.png](https://github.com/craftisan/jetbrains-installer/blob/master/screenshots/2.png)
 
-8. When asked for `Data Sharing`, click `Dont't Send`.
+8. When asked for `Data Sharing`, click `Don't Send`.
 
 	![screenshots/3.png](https://github.com/craftisan/jetbrains-installer/blob/master/screenshots/3.png)
 

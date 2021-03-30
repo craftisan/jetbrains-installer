@@ -28,6 +28,7 @@ if [ "$OS_NAME" = "Darwin" ]; then
     # Delete all application related files
     for PRD in $JB_PRODUCTS; do
         sudo rm -f ~/Library/Preferences/com.jetbrains."${PRD}".plist
+        sudo rm -f ~/Library/Preferences/jetbrains.*
         sudo rm -rf /Applications/"${PRD}".app
         sudo rm -rf ~/Library/Preferences/"${PRD}"
         sudo rm -rf ~/Library/Application\ Support/"${PRD}"

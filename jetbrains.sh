@@ -27,18 +27,22 @@ if [ "$OS_NAME" = "Darwin" ]; then
 
     # Delete all application related files
     for PRD in $JB_PRODUCTS; do
-        sudo rm -f ~/Library/Preferences/com.jetbrains."${PRD}".plist
-        sudo rm -f ~/Library/Preferences/jetbrains.*
+        sudo rm -rf ~/Library/Preferences/com.jetbrains."${PRD}".plist
         sudo rm -rf /Applications/"${PRD}".app
         sudo rm -rf ~/Library/Preferences/"${PRD}"
         sudo rm -rf ~/Library/Application\ Support/"${PRD}"
         sudo rm -rf ~/Library/Caches/"${PRD}"
+        sudo rm -rf ~/Library/Logs/"${PRD}"*
     done
+    sudo rm -rf ~/Library/Preferences/jetbrains.*
+    sudo rm -rf ~/Library/Saved\ Application\ State/com.jetbrains.*
 
-    # Download the latest version of PRODUCT
-    echo "Downloading: ${PRODUCT}-${VERSION}.dmg"
+    if [ ! -d ~/"${PRODUCT}"-"${VERSION}".dmg ]; then
+	    # Download the latest version of PRODUCT
+	    echo "Downloading: ${PRODUCT}-${VERSION}.dmg"
 
-    curl -o ~/"${PRODUCT}"-"${VERSION}".dmg https://download-cf.jetbrains.com/webide/"${PRODUCT}"-"${VERSION}".dmg
+	    curl -o ~/"${PRODUCT}"-"${VERSION}".dmg https://download-cf.jetbrains.com/webide/"${PRODUCT}"-"${VERSION}".dmg
+	fi
 
     echo "Unmounting ${PRODUCT}.dmg if already present"
     sudo hdiutil detach /Volumes/"${PRODUCT}"
